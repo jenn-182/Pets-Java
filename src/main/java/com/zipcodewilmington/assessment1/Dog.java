@@ -9,7 +9,8 @@ public class Dog extends Pet {
      * @param age age of this dog
      */
     public Dog(String name, Integer age) {
-        
+
+        // Call the superclass constructor
         super(name, age);
 
     }
@@ -19,6 +20,7 @@ public class Dog extends Pet {
      */
     public Dog(Integer age) {
 
+        // Call the superclass constructor
         super(age);
     }
 
@@ -27,6 +29,7 @@ public class Dog extends Pet {
      */
     public Dog(String name) {
        
+        // Call the superclass constructor
         super(name);
     }
 
@@ -38,6 +41,7 @@ public class Dog extends Pet {
      */
     public Dog() {
         
+        // Call the superclass constructor
         super();
     }
 
@@ -46,6 +50,7 @@ public class Dog extends Pet {
      */
     public String speak() {
         
+        // Return bark
         return "bark";
     }
 }

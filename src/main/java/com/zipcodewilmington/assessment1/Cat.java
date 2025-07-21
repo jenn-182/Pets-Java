@@ -10,6 +10,7 @@ public class Cat extends Pet {
      */
     public Cat(String name, Integer age) {
 
+        // Call the superclass constructor
         super(name, age);
 
     }
@@ -19,6 +20,7 @@ public class Cat extends Pet {
      */
     public Cat(Integer age) {
 
+        // Call the superclass constructor
         super(age);
     }
 
@@ -27,6 +29,7 @@ public class Cat extends Pet {
      */
     public Cat(String name) {
 
+        // Call the superclass constructor
         super(name);
 
     }
@@ -38,6 +41,8 @@ public class Cat extends Pet {
      * age is 0
      */
     public Cat() {
+
+        // Call the superclass constructor
         super();
     }
 
@@ -45,6 +50,8 @@ public class Cat extends Pet {
      * @return meow as a string
      */
     public String speak() {
+
+        // Return meow
         return "meow";
     }
 }
